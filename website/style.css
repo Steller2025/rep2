@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.heading{
+
+    position: fixed;
+    width: 2200px;
+    z-index: 5;
+
+}
+.random{
+    background-color: aqua;
+}
+h1{
+
+    text-emphasis-color: blue;
+    background-color: rgb(255, 0, 0); 
+
+}
+.button-container{
+   
+    background-color: blue;
+    width:300px;
+    height:300px;
+    margin-left: 30px;
+    margin-top: 50px;
+    position:relative;
+    border-left:30px solid green;
+    display:inline-block;
+    border-radius: 15px;
+
+}
+.button1{
+
+    color:orange;
+    font-size: 40px;
+    position:absolute;
+    left:60px;
+    bottom:140px;
+    z-index: 1;
+}
+.button-container2{
+
+    background-color: blue;
+    width:300px;
+    height:300px;
+    margin-left: 30px;
+    margin-top: 50px;
+    position:relative;
+    border-left:30px solid green;
+    display:inline-block;
+    border-radius: 15px;
+    bottom: 700px;
+    overflow: auto;
+
+}
+.container3{
+
+width: 300px;
+height: 100px;
+background-color: cornsilk ;
+position:relative;
+left:1150px;
+bottom:900px;
+overflow: auto;
+
+}
+
+#sigma{  
+
+    bottom: 50px;
+    z-index 1;
+}
+.text{
+    font-size: 40px;
+}
+.containerx{
+   
+    display: flex;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+    justify-self: center;
+    
+}
+.cards{
+    display: flex;
+   
+    background-color: green;
+    gap:5px;
+    height: 50%;
+    width: 400px;
+    justify-content: center;
+    
+ 
+}
+.card{
+    margin-top:30px;
+    background-color: bisque;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.card1{
+    width: 150px;
+    height: 200px;
+}
+.containery{
+
+    width: 80%;
+    height: 800px;
+    position: relative;
+    left:130px;
+    top:50px;
+    background-color: black;
+    background:url(images/pattern1.jpg);
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap:10px;
+   
+    
+    
+
+}
+.cardsy{
+    background-color: black;
+    width: 20%;
+    height: 60%;
+
+
+}
+.card1y{
+  
+ 
+}
+.card2y{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.title{
+    position:absolute;
+    top:30px;
+    color:lime;
+    font-size: 50px;
+
+}
+.comment2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:lime;
+    
+    
+}
